@@ -19,7 +19,7 @@ services:
 #    build: ./dockerfile/app
 #    user: oem
 
-    container_name: laravel
+    container_name: laravelRole
     ports:
       - '8000-8100:8000-8100'
       - '5170-5180:5170-5180'
